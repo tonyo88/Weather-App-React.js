@@ -5,9 +5,9 @@ Weather-App
 
 About
 ---
-With the Weather-Аpp, you can look up the weather by city name. You can check the weather conditions
+With the Weather-Аpp, you can look up the weather by city name. By pressing "Enter" you will receive information about the meteorological conditions of the city you have chosen.
 
-Technologies
+Technologies  
 ---
 **Code technologies I got involved on this project:**
 * React.js
