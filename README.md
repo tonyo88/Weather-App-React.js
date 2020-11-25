@@ -39,3 +39,5 @@ $ npm start
 ```
 Overview
 ---
+![deault-page](https://user-images.githubusercontent.com/45981967/100241326-711dc980-2ee8-11eb-94b0-9c815a9b2d19.png)
+![weather-page](https://user-images.githubusercontent.com/45981967/100241371-79760480-2ee8-11eb-9302-49d8542a1eda.png)
