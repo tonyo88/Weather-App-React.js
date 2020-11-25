@@ -1,3 +1,5 @@
+![weather-logo](https://user-images.githubusercontent.com/45981967/100240837-e210b180-2ee7-11eb-8239-29f23edd5e91.png)
+
 Weather-App
 ===
 
@@ -35,3 +37,5 @@ $ cd weather-app
 $ npm install
 $ npm start
 ```
+Overview
+---
