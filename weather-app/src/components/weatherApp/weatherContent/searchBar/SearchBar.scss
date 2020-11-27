@@ -1,0 +1,51 @@
+//Colors
+$search-bg: rgba(255, 255, 255, 0.5);
+$search-focus-bg: rgba(255, 255, 255, 0.75);
+$search-text-color: #313131;
+$box-shadow: rgba(0, 0, 0, 0.25);
+
+//Breakpoints
+$breakpoint-mobile: 767px;
+
+.search-box {
+    width: 100%;
+    margin: 0 0 50px;
+
+    .search-bar {
+        font-family: "Open Sans Condensed", sans-serif;
+        width: 100%;
+        display: block;
+        padding: 12px;
+        appearance: none;
+        border: none;
+        background: none;
+        outline: none;
+        background-color: $search-bg;
+        border-radius: 0 0 16px 16px;
+        margin-top: -25px;
+        box-shadow: 0 5px $box-shadow;
+        font-size: 1.05rem;
+        text-transform: uppercase;
+        transition: 0.4s ease;
+        color: $search-text-color;
+        font-weight: 500;
+
+        &:focus {
+            background-color: $search-focus-bg;
+            font-weight: 700;
+        }
+    }
+}
+
+//Breakpoint
+@media screen and (max-width: $breakpoint-mobile) {
+    .search-box {
+        margin: 0 0 30px;
+
+        .search-bar {
+            padding: 10px;
+            font-size: 0.9rem;
+            margin-top: -20px;
+        }
+    }
+}

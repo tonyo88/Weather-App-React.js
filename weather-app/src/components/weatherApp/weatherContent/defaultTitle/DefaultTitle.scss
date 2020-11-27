@@ -1,0 +1,23 @@
+//Colors
+$text-shadow: rgba(50, 50, 70, 0.5);
+//Breakpoints
+$breakpoint-mobile: 767px;
+
+.default-title-container {
+    text-align: center;
+
+    .default-title {
+        font-size: 3.2rem;
+        letter-spacing: 0.2rem;
+        animation-duration: 0.8s;
+        text-shadow: 2px 5px $text-shadow;
+    }
+}
+
+@media screen and (max-width: $breakpoint-mobile) {
+    .default-title-container {
+        .default-title {
+            font-size: 2.2rem;
+        }
+    }
+}

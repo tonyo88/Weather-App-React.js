@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAKA,AAAA,gBAAgB,CAAC;EACb,UAAU,EALH,sBAAsB;EAM7B,UAAU,EAAE,MAAM;EAClB,kBAAkB,EAAE,KAAK;CAK5B;;AARD,AAKI,gBALY,CAKZ,MAAM,CAAC;EACH,SAAS,EAAE,MAAM;CACpB;;AAGL,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,KAAK;EAC/B,AACI,gBADY,CACZ,MAAM,CAAC;IACH,SAAS,EAAE,MAAM;GACpB",
+    "sources": [
+        "ErrorMessage.scss"
+    ],
+    "names": [],
+    "file": "ErrorMessage.css"
+}

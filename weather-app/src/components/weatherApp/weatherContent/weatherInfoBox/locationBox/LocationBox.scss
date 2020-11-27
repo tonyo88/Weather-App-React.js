@@ -1,0 +1,42 @@
+//Colors
+$text-shadow-color: rgba(50, 50, 70, 0.5);
+
+//Mixin
+@mixin text-shadow($top, $right) {
+    text-shadow: $top $right $text-shadow-color;
+}
+
+//Breakpoints
+$breakpoint-mobile: 767px;
+
+.location-box {
+    text-align: center;
+
+    .location {
+        font-size: 2.5rem;
+        font-weight: 600;
+        letter-spacing: 0.02rem;
+        @include text-shadow(3px, 3px);
+    }
+
+    .date {
+        font-size: 700;
+        font-style: italic;
+        font-size: 1.2rem;
+        @include text-shadow(2px, 2px);
+    }
+}
+
+//Breakpoint
+
+@media screen and (max-width: $breakpoint-mobile) {
+    .location-box {
+        .location {
+            font-size: 1.8rem;
+        }
+
+        .date {
+            font-size: 1rem;
+        }
+    }
+}

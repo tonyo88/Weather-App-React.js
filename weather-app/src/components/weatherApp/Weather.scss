@@ -1,0 +1,43 @@
+.weather-app {
+  background-image: url("../../assets/all-s.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: 0.4s ease-in-out;
+
+  .middle-positioning {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+}
+
+.thunderstorm {
+  background-image: url("../../assets/thunderstorm.gif");
+}
+
+.drizze {
+  background-image: url("../../assets/drizzle.gif");
+}
+
+.rain {
+  background-image: url("../../assets/rain.gif");
+}
+
+.atmosphere {
+  background-image: url("../../assets/atmosphere.gif");
+}
+
+.snow {
+  background-image: url("../../assets/snow.gif");
+}
+
+.clouds {
+  background-image: url("../../assets/clouds.gif");
+}
+
+.clear {
+  background-image: url("../../assets/clear.gif");
+}

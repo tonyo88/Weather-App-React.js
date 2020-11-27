@@ -1,0 +1,18 @@
+.weather-content {
+  min-height: 100vh;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.1)), to(rgba(0, 0, 0, 0.25)));
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.25));
+  padding: 25px;
+}
+
+.weather-content .wrapper {
+  max-width: 1450px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 767px) {
+  .weather-content {
+    padding: 20px;
+  }
+}
+/*# sourceMappingURL=WeatherContent.css.map */

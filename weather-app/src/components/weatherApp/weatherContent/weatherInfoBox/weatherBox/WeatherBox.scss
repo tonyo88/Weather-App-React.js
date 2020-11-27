@@ -1,0 +1,81 @@
+//Colors
+$weather-box-bg: rgba(255, 255, 255, 0.2);
+$box-shadow-color: rgba(0, 0, 0, 0.25);
+$text-shadow-color: rgba(50, 50, 70, 0.5);
+
+//Mixins
+@mixin box-shadow($top, $right) {
+    box-shadow: $top $right $box-shadow-color;
+}
+
+@mixin text-shadow($top, $right) {
+    text-shadow: $top $right $text-shadow-color;
+}
+
+//Breakpoints
+$breakpoint-mobile: 767px;
+
+.weather-box {
+    text-align: center;
+    display: block;
+    width: 250px;
+    height: auto;
+    background: $weather-box-bg;
+    border-radius: 18px;
+    padding: 15px 25px;
+    font-weight: 800;
+    animation-duration: 0.6s;
+    @include box-shadow(3px, 6px);
+    @include text-shadow(3px, 6px);
+
+    .temperature {
+        font-size: 4.5rem;
+    }
+
+    .weather-info {
+        @include text-shadow(2px, 4px);
+
+        .weather-icon {
+            width: 100px;
+            height: 100px;
+        }
+
+        .min-max-container {
+            font-size: 1.2rem;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-row: auto;
+        }
+
+        .weather-description {
+            font-size: 2.6rem;
+            letter-spacing: 0.1rem;
+        }
+    }
+}
+
+@media screen and (max-width: $breakpoint-mobile) {
+    .weather-box {
+        width: 200px;
+        padding: 10px 20px;
+
+        .temperature {
+            font-size: 3rem;
+        }
+
+        .weather-info {
+            .weather-icon {
+                width: 60px;
+                height: 60px;
+            }
+
+            .min-max-container {
+                font-size: 1rem;
+            }
+
+            .weather-description {
+                font-size: 2rem;
+            }
+        }
+    }
+}

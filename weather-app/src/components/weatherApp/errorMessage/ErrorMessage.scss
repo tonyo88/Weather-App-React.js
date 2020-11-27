@@ -1,0 +1,22 @@
+//Colors
+$error-bg: rgba(199, 22, 22, 0.6);
+//Breakpoints
+$breakpoint-mobile: 767px;
+
+.error-container {
+    background: $error-bg;
+    text-align: center;
+    animation-duration: 0.35s;
+
+    .error {
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: $breakpoint-mobile) {
+    .error-container {
+        .error {
+            font-size: 0.9rem;
+        }
+    }
+}

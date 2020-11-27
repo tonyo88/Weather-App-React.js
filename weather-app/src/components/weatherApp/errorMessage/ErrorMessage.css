@@ -1,0 +1,17 @@
+.error-container {
+  background: rgba(199, 22, 22, 0.6);
+  text-align: center;
+  -webkit-animation-duration: 0.35s;
+          animation-duration: 0.35s;
+}
+
+.error-container .error {
+  font-size: 1.2rem;
+}
+
+@media screen and (max-width: 767px) {
+  .error-container .error {
+    font-size: 0.9rem;
+  }
+}
+/*# sourceMappingURL=ErrorMessage.css.map */

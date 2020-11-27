@@ -1,0 +1,18 @@
+.default-title-container {
+  text-align: center;
+}
+
+.default-title-container .default-title {
+  font-size: 3.2rem;
+  letter-spacing: 0.2rem;
+  -webkit-animation-duration: 0.8s;
+          animation-duration: 0.8s;
+  text-shadow: 2px 5px rgba(50, 50, 70, 0.5);
+}
+
+@media screen and (max-width: 767px) {
+  .default-title-container .default-title {
+    font-size: 2.2rem;
+  }
+}
+/*# sourceMappingURL=DefaultTitle.css.map */
